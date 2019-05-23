@@ -9,11 +9,16 @@ public class Hand {
       hand = new Vector();
    }
    
-   public void addCard(Card c) {
+   public void addCard(MCard c) {
 
    }
    
-   public void removeCard(Card c) {
+   public void removeCard(MCard c) {
+
+   }
+
+   public int getCardCount() {
+      return 10;
 
    }
    
@@ -22,8 +27,9 @@ public class Hand {
    }
    
    
-   public Card getCard(int position) {
-      Card myCard = new Card(1,1);
+   public MCard getCard(int position) {
+
+      MCard myCard = new MCard(Suit.values()[1],Value.values()[1]);
       return myCard;
 
    }

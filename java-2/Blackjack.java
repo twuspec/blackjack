@@ -22,6 +22,7 @@ public class Blackjack {
       } while (bet < 0 || bet > money);
       if (bet == 0)
         break;
+      System.out.println("goint go");
       userWins = playBlackjack();
       if (userWins)
         money = money + bet;
@@ -49,6 +50,8 @@ public class Blackjack {
     BlackjackHand userHand;     // The user's hand.
 
     deck = new Deck();
+    deck.createFullDeck();
+    deck.toString();
     dealerHand = new BlackjackHand();
     userHand = new BlackjackHand();
 

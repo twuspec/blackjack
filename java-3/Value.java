@@ -1,0 +1,3 @@
+public enum Value {
+    TO,TRE,FIRE,FEM,SEKS,SYV,OTTE,NI,TI,KNAEGT,DAME,KONGE,ES
+}
